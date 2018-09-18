@@ -1,0 +1,8 @@
+    LoadModule websocket_module   /usr/lib/apache2/modules/mod_websocket.so
+
+    <IfModule mod_websocket.c>
+      <Location /echo>
+        SetHandler websocket-handler
+        WebSocketHandler /usr/lib/apache2/modules/mod_websocket_echo.so echo_init
+      </Location>
+    </IfModule>

@@ -1,2 +1,1 @@
-*.so usr/lib/apache2/modules/
-examples/*.so usr/lib/apache2/modules/
+examples/*.html var/www/html

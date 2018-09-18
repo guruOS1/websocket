@@ -1,0 +1,6 @@
+mod debian/loads/websocket.load
+mod debian/loads/websocket_draft76.load
+mod mod_websocket.so  
+mod mod_websocket_draft76.so
+mod examples/mod_websocket_dumb_increment.so
+mod examples/mod_websocket_echo.so

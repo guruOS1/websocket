@@ -1,12 +1,12 @@
-Source: websocket
+Source: libapache2-mod-websocket
 Maintainer: Daddy Pig <daddy@pigs.org>
 Section: misc
 Priority: optional
 Standards-Version: 3.9.2
-Build-Depends: debhelper (>= 8)
+Build-Depends: debhelper (>= 8), dh-apache2, scons, build-essential, libaprutil1-dev, apache2-dev
 
-Package: websocket
+Package: libapache2-mod-websocket
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, apache2, apache2-bin
 Description: Websocket module for apache2
  Websocket module for apache2.
