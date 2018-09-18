@@ -1,0 +1,12 @@
+Source: websocket
+Maintainer: Daddy Pig <daddy@pigs.org>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 8)
+
+Package: websocket
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Websocket module for apache2
+ Websocket module for apache2.
