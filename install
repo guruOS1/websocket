@@ -1,1 +1,2 @@
-usr/lib/apache2/modules/*.so
+*.so usr/lib/apache2/modules/
+examples/*.so usr/lib/apache2/modules/
