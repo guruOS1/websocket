@@ -3,7 +3,7 @@ Maintainer: Daddy Pig <daddy@pigs.org>
 Section: misc
 Priority: optional
 Standards-Version: 3.9.2
-Build-Depends: debhelper (>= 8), dh-apache2, scons, build-essential, libaprutil1-dev, apache2-dev
+Build-Depends: debhelper (>= 8), dh-apache2, git, scons, build-essential, libaprutil1-dev, apache2-dev
 
 Package: libapache2-mod-websocket
 Architecture: any

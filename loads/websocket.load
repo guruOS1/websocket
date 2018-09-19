@@ -5,4 +5,8 @@
         SetHandler websocket-handler
         WebSocketHandler /usr/lib/apache2/modules/mod_websocket_echo.so echo_init
       </Location>
+     <Location /dumb-increment>
+        SetHandler websocket-handler
+        WebSocketHandler /usr/lib/apache2/modules/mod_websocket_dumb_increment.so dumb_increment_init
+      </Location>
     </IfModule>
